@@ -1,5 +1,5 @@
 # Medical Image Processing (CS:736, IIT Bombay)
-This repository contains code and materials developed in IITB's course CS:736 (medical image processing).
+This repository contains code and materials developed in IITB's course.
 
 ### Denoising of brain MRI Images
 The problem statement can be found [here]().
@@ -11,8 +11,15 @@ I implemented a denoising system maximum-a-posteriori Bayesian image-denoising a
 
 The results are as follows:
 
-|    | Image |
-| Uncorrupted phantom | ![uncorrupted]({{ site.url }}/mri_denoising/phantom_01_uncorrupted.png) |
-| Noisy image (input) | ![noisy]({{ site.url }}/mri_denoising/phantom_02_noisy.png) |
+| Description     | Image |
+| ---- | ----- |
+| Uncorrupted phantom | ![uncorr](./mri_denoising/phantom_01_uncorrupted.png) |
+| Noisy image (input) | ![noisy](./mri_denoising/phantom_02_noisy.png) |
+| Processed using g1 | ![g1](./mri_denoising/phantom_03_g1.png) |
+| Processed using g2 | ![g2](./mri_denoising/phantom_04_g2.png) |
+| Processed using g3 | ![g3](./mri_denoising/phantom_05_g3.png) |
+
+
+
 
 
