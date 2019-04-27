@@ -28,7 +28,7 @@ The results on an actual 2d image of a brain, corrupted with noise, is shown bel
 | Processed using g3 | ![g3](./mri_denoising/mri_05_g3.png) |
 
 ### MRI image segmentation
-The problem statement can be found [here]((./mri_segmentation/problem_statement.pdf).).
+The problem statement can be found [here](./mri_segmentation/problem_statement.pdf).
 
 An MRI image contains three segments of interest: *white matter*, *gray matter*, and *cerebrospinal fluid*. The segmentation becomes challenging in the presence of random noise, and the occasional bias field. We implemented two algorithms: modified fuzzy-c-means (FCM), and an expectation-maximization based algorithm on top of a Gaussian mixture model (GMM) on Markov random fields (MRF).
 
