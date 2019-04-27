@@ -20,6 +20,7 @@ The results on a phantom image are in the following table. The efficacy of the a
 | Processed using g3 | ![g3](./mri_denoising/phantom_05_g3.png) |
 
 The results on an actual 2d image of a brain, corrupted with noise, is shown below.
+
 | Description | Image |
 | --------- | ----- |
 | Noisy image (input) | ![noisy](./mri_denoising/mri_02_noisy.png) |
@@ -33,6 +34,7 @@ The problem statement can be found [here]((./mri_segmentation/problem_statement.
 An MRI image contains three segments of interest: *white matter*, *gray matter*, and *cerebrospinal fluid*. The segmentation becomes challenging in the presence of random noise, and the occasional bias field. We implemented two algorithms: modified fuzzy-c-means (FCM), and an expectation-maximization based algorithm on top of a Gaussian mixture model (GMM) on Markov random fields (MRF).
 
 The results are collected in the table below. The FCM algorithm has the ability to handle the bias field. But the EM-GMM algorithm performs better classification.
+
 | Image description | FCM algo | EM-GMM algo |
 | --- | --- | --- |
 | Input | ![fcm_corrupt](./mri_segmentation/fcm_01_corrupt.png) | ![emgmm_corrupt](./mri_segmentation/emgmm_01_corrupt.png) |
