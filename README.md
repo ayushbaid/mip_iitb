@@ -1,6 +1,8 @@
 # Medical Image Processing (CS:736, IIT Bombay)
 This repository contains code and materials for a couple of assignments developed in IITB's course, taken by [Prof. Suyash Awate](https://www.cse.iitb.ac.in/~suyash/).
 
+{:toc}
+
 ### Denoising of brain MRI Images
 The problem statement can be found [here](./mri_denoising/problem_statement.pdf).
 
