@@ -1,6 +1,9 @@
 This repository contains code and materials for a couple of assignments developed in IITB's course CS736, taken by [Prof. Suyash Awate](https://www.cse.iitb.ac.in/~suyash/).
 
+* TOC
+{:toc}
 ### Denoising of brain MRI Images
+
 The problem statement can be found [here](./mri_denoising/problem_statement.pdf).
 
 I implemented a denoising system maximum-a-posteriori Bayesian image-denoising algorithm using different priors on the MRF (markov random fields). The different priors, used to enforce smoothness, used the following potential functions:
